@@ -1,0 +1,34 @@
+Fișiere de Configurare
+
+Proiectul folosește două fișiere pentru configurarea sistemului de email(gmail):
+1. php.ini - Configurația PHP
+
+Sectiunea:
+[mail function]
+; For Win32 only.
+; http://php.net/smtp
+SMTP=smtp.gmail.com
+; http://php.net/smtp-port
+smtp_port=587
+
+; For Win32 only.
+; http://php.net/sendmail-from
+sendmail_from = adresa@gmail.com
+
+
+2. sendemail.ini - Configurația SMTP
+
+Continutul fisierului fiind:
+
+[sendmail]
+
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=adresa@gmail.com
+auth_password=xxxx xxxx xxxx xxxx
+force_sender=adresa@gmail.com
+from_email = support@sentra.ro
+from_name = Sentra Support
+reply_to = support@sentra.ro

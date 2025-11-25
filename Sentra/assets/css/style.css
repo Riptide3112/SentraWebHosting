@@ -1,0 +1,148 @@
+/* Stiluri personalizate Sentra */
+
+html {
+    scrollbar-gutter: stable overlay;
+}
+
+/* Definirea culorii principale SENTRA_CYAN */
+.sentra-cyan {
+    background-color: #00BFB2;
+}
+
+.text-sentra-cyan {
+    color: #00BFB2;
+}
+
+.border-sentra-cyan {
+    border-color: #00BFB2;
+}
+
+/* Definirea culorii de fundal pentru planul PLUS (Verde deschis/mint) */
+.bg-plus-recommended {
+    background-color: #E0F2F1;
+    /* Un teal/cyan foarte deschis */
+}
+
+/* Stil pentru eticheta "Cel mai apreciat" (Tag Outline) */
+.plus-tag-outline {
+    color: #00BFB2;
+    /* sentra-cyan */
+    border: 2px solid #00BFB2;
+    background-color: transparent;
+    font-weight: 700;
+    /* bold */
+}
+
+/* Stil pentru comutatorul de tip găzduire */
+.hosting-switch-container {
+    background-color: rgba(255, 255, 255, 0.85);
+    /* 85% opacitate, pentru efect de transparență */
+}
+
+/* Stil pentru bulina verde stralucitoare NVMe */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 191, 178, 0.7);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 191, 178, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(0, 191, 178, 0);
+    }
+}
+
+.nvme-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00BFB2;
+    /* sentra-cyan */
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+/* Fontul Inter - Modern si lizibil */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    /* Un alb foarte usor off-white */
+}
+
+/* Stil pentru umbra subtila a cardurilor */
+.card-shadow {
+    box-shadow: 0 4px 15px rgba(0, 191, 178, 0.1);
+}
+
+/* Stil pentru butoanele standard de jos (Comandă Acum) */
+.btn-primary {
+    background-color: #00BFB2;
+    /* sentra-cyan */
+    color: white;
+    transition: all 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 191, 178, 0.4);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 6px 20px rgba(0, 191, 178, 0.6);
+    transform: translateY(-2px);
+}
+
+/* Stil pentru optiunea activa NVMe */
+.bg-active-nvme {
+    background-color: #e0f2f1;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Stil pentru comutatorul de TVA - tranzitia pentru transform */
+.tva-switch-handle-active {
+    transform: translateX(100%);
+    background-color: white;
+}
+
+/* Iconita check verde din carduri */
+.feature-check {
+    color: #00BFB2;
+    /* sentra-cyan */
+}
+
+/* Stil pentru eticheta de reducere - discount-label */
+.discount-label {
+    background-color: #FFC107;
+    /* Galben intens */
+    color: #1A1A1A;
+}
+
+/* Stil pentru a asigura ca imaginea acopera in noul layout */
+.image-aspect-ratio {
+    padding-bottom: 75%;
+    /* 4:3 Aspect Ratio pentru desktop */
+}
+
+@media (min-width: 768px) {
+    .image-aspect-ratio {
+        padding-bottom: 100%;
+        /* 1:1 Aspect Ratio pe desktop (optional) */
+    }
+}
+
+/* Stil pentru iconitele social media din Footer */
+.social-icon-link:hover i {
+    color: #00BFB2;
+    /* sentra-cyan */
+    transition: color 0.3s;
+}
+
+/* Stil hover pentru link-urile din footer */
+.footer-link-hover:hover {
+    color: #00BFB2;
+    /* sentra-cyan */
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+
+/* Stiluri Swiper (Carusel) */
+.swiper-pagination-bullet-active {
+    background: #00BFB2 !important;
+}
