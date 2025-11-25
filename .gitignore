@@ -1,0 +1,10 @@
+# 🔐 Fișiere sensibile
+*.env
+/config/
+/includes/config.php
+/includes/sendemail.ini
+
+# 🗄️ System files
+.DS_Store
+Thumbs.db
+*.log
