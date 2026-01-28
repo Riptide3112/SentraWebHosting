@@ -64,7 +64,7 @@
             </nav>
 
             <div class="hidden md:flex items-center space-x-4">
-                <a href="client/dashboard.php"
+                <a href="../sentra/client/dashboard.php"
                     class="sentra-cyan text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-0.5">
                     Cont Client
                 </a>
@@ -123,7 +123,7 @@
         </div>
         
         <div class="pt-4 pb-3 border-t border-gray-200">
-            <a href="client/dashboard.php"
+            <a href="../client/dashboard.php"
                 class="block mx-4 sentra-cyan text-white px-4 py-2 rounded-lg text-base font-semibold text-center shadow-lg hover:shadow-xl transition duration-300 transform hover:-translate-y-0.5">
                 Cont Client
             </a>
@@ -149,9 +149,9 @@
 
                     <div
                         class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                        <a href="pages/register.php"
+                        <a href="../sentra/client/dashboard.php"
                             class="sentra-cyan text-white px-8 py-4 rounded-xl font-bold text-lg shadow-2xl shadow-[#00BFB2]/50 hover:shadow-[#00BFB2]/70 transition duration-300 transform hover:scale-[1.02]">
-                            Creează Cont
+                            Conectare
                         </a>
                         <a href="#abonamente"
                             class="bg-white border border-gray-300 text-gray-800 px-8 py-4 rounded-xl font-medium text-lg hover:border-sentra-cyan hover:text-sentra-cyan transition duration-300">
