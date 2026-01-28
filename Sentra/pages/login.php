@@ -446,7 +446,7 @@ if ($error_message) {
             </div>
 
             <div class="w-full relative z-10">
-                <a href="index.php"
+                <a href="../index.php"
                     class="flex items-center mb-4 cursor-pointer hover:opacity-90 transition duration-300 transform hover:scale-105">
                     <h1 class="text-4xl lg:text-5xl xl:text-6xl font-extrabold tracking-tight mr-2 text-white">
                         Sentra
