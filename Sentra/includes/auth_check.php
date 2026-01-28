@@ -34,7 +34,7 @@ function check_access($required_role = null) {
             'type' => 'error',
             'text' => 'Trebuie să fii autentificat pentru a accesa această pagină.'
         ];
-        header("Location: ../pages/login.php");
+        header("Location: ../sentra/pages/login.php");
         exit;
     }
     
@@ -44,7 +44,7 @@ function check_access($required_role = null) {
             'type' => 'error', 
             'text' => 'Nu ai permisiunea de a accesa această pagină.'
         ];
-        header("Location: ../client/dashboard.php");
+        header("Location: ../sentra/client/dashboard.php");
         exit;
     }
     
